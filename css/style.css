@@ -1,0 +1,227 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+main{
+   margin: 0 10%;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+header{
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 0 10%;
+
+}
+
+.nav ul li a{
+  padding: 10px;
+  float: right;
+  padding-top: 15px;
+
+}
+
+.nav{
+  padding-left: 20px;
+}
+.left{
+  /* border: 2px solid green; */
+  width: 50%;
+  float: left;
+  display: inline-block;
+}
+
+.llbean,
+.hat{
+  width: 50%;
+  float: left;
+}
+
+.middle{
+  /* border: 2px solid purple; */
+  width: 15%;
+  float: left;
+  display: inline-block;
+  margin-left: 1%;
+}
+
+.THIRDright{
+  /* border: 2px solid blue; */
+  width: 30%;
+  float: left;
+  display: inline-block;
+}
+
+.car{
+  /* border: 2px solid pink; */
+  width: 100%;
+  display: inline-block;
+
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h1{
+  display: block;
+  border-bottom: 2px solid red;
+  width: 66%;
+}
+
+h2{
+  display: block;
+  border-bottom: 2px solid red;
+}
+
+h4{
+  color: red;
+}
+
+.logo{
+  float: left;
+  padding-top: 5px;
+}
+
+header nav a{
+  color: white;
+  text-decoration: none;
+  margin-top: 5%;
+}
+
+nav a{
+  vertical-align: center;
+  margin-top: 5%;
+}
+
+
+ul > li{
+  list-style: none;
+  display: inline-block;
+  color: white;
+}
+
+.middle h4 a{
+  color: red;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0px;
+}
+
+.plz{
+  color: black;
+}
+/**********Bottom********/
+.car{
+  width: 100%;
+}
+
+
+.truck {
+  height: 400px;
+  width: 35%;
+  /* border: 2px solid gold; */
+  float: left;
+}
+
+.Blist{
+  height: 400px;
+  width: 50%;
+  /* border: 2px solid teal; */
+  float: left;
+  padding-left: 0px;
+  padding-top: 50px;
+}
+
+.Blist > ul > li{
+  padding: 15px 0;
+  border-top: 2px solid lightgray;
+}
+
+.Blist > ul > li:first-child{
+  border: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+h6{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 5px 0px;
+  width: 90%;
+}
+
+h3{
+  font-size: 25px;
+  font-weight: 600;
+  margin: 5px 0px;
+  width: 90%;
+}
+
+.gray{
+  color: gray;
+  float: left;
+}
+
+.most{
+  font-size: 14px;
+}
+
+.icons{
+  float: left;
+  width: 50%;
+}
+
+.address{
+  float: right;
+  width: 50%;
+}
+
+footer{
+  margin-left: 10%;
+}
